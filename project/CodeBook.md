@@ -2,9 +2,6 @@
 title: "Codebook"
 author: "Coolsugs"
 date: "September 22, 2017"
-output:
-  html_document:
-    keep_md: yes
 ---
 
 ## Project Description
@@ -47,11 +44,11 @@ Data was downloaded from the url provided in the requirements.
 
 
 ### Variables in averages_data dataset
-subject: ID 0f the subject who performed the activity for each window sample. Its range is from 1 to 30.
-activity: Activity name. The data contains 6 activities viz. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-Acc: This feature denotes acceleration signal of body or gravity
-Jerk: This feature denotes jerk signal of body or gravity
-Gyro: This feature denotes gyro sensors (angular rate sensors or angular velocity sensors) of body or gravity
-Mag: Magnitude of the signals calculated using the Euclidean norm
+    subject: ID 0f the subject who performed the activity for each window sample. Its range is from 1 to 30.
+    activity: Activity name. The data contains 6 activities viz. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+    Acc: This feature denotes acceleration signal of body or gravity
+    Jerk: This feature denotes jerk signal of body or gravity
+    Gyro: This feature denotes gyro sensors (angular rate sensors or angular velocity sensors) of body or gravity
+    Mag: Magnitude of the signals calculated using the Euclidean norm
 
