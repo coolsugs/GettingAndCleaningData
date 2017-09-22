@@ -25,13 +25,15 @@ R script called run_analysis.R should be created to complete following tasks:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
     
-##Study design and data processing
+## Study design and data processing
 The script run_analysis.R performs the 5 steps as mentioned in the requirements of the project.
 
-###Collection of the raw data
+### Collection of the raw data
 Data was downloaded from the url provided in the requirements.
 
-## Variables used in run_analysis.R
+## Variables
+
+### Variables used in run_analysis.R
 
     x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
     x_combined_data, y_combined_data and subject_combined_data merge the previous datasets to further analysis.For example: x_combined_data merges data from x_train and x_test.
@@ -44,7 +46,7 @@ Data was downloaded from the url provided in the requirements.
     This final dataset is used to generate tidy_data_averages.txt.
 
 
-###Variables in averages_data dataset
+### Variables in averages_data dataset
 subject: ID 0f the subject who performed the activity for each window sample. Its range is from 1 to 30.
 activity: Activity name. The data contains 6 activities viz. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
