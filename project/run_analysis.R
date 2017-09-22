@@ -1,15 +1,18 @@
 library(plyr)
 
 # set up defualt directory
-setwd('D:/Coursera/project')
+setwd('D:/Coursera/Course3_GettingAndCleaningData/project')
+
 
 zipfile <- "UCI_HAR_Dataset.zip"
 datazip_url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(datazip_url, zipfile)
 
-unzip(zipfile)
+if (!file.exists(zipfile)) {
+    download.file(datazip_url, zipfile)
 
+    unzip(zipfile)
 
+}
 
 ###########################################################################################################
 # 1. Merges the training and the test sets to create one data set.
@@ -108,7 +111,6 @@ all_data <- cbind(x_combined_subset, y_combined_data, subject_combined_data)
 
 dim(all_data)
 
-names(all_data)
 
 ###########################################################################################################
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
