@@ -5,11 +5,11 @@ date: "September 22, 2017"
 ---
 
 ## Project Description
-Coursera course 3 - Getting and Cleaning Data requires a project submission. The data used for this project represents data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+Coursera course 3 - Getting and Cleaning Data requires a project submission. The data used for this project represents data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site from where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Here are the data for the project:
+Here is the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -25,7 +25,7 @@ R script called run_analysis.R should be created to complete following tasks:
 
 ## Steps to reproduce this project
 1. Open the R script run_analysis.R using a text editor or RStudio.
-2. Change the parameter of the setwd function call to the working directory/folder (i.e., the folder where these the R script file is saved).
+2. Change the parameter of the setwd function call to the working directory/folder (i.e. the folder where R script file is saved).
 3. Run the R script run_analysis.R.
     
 
