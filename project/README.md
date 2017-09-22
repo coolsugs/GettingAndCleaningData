@@ -27,8 +27,7 @@ R script called run_analysis.R should be created to complete following tasks:
 1. Open the R script run_analysis.R using a text editor or RStudio.
 2. Change the parameter of the setwd function call to the working directory/folder (i.e. the folder where R script file is saved).
 3. Make sure plyr package is installed. If not,
-   install.packages("plyr")
-
+    install.packages("plyr")
 4. Run the R script run_analysis.R.
     
 
